@@ -1,0 +1,41 @@
+# ninja log v5
+2	92	7243336812142013	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/main.o	b61839811742a227
+17	217	7243312124926763	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/Sensors/Magnetic-Sensor/magnetic-sensor.o	9b78c2da77bd822d
+3	185	7242781347153590	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/Sensors/Fume-Sensor/fume_sensor.o	54fca5ff9411480
+95	133	7243336812570867	C:/Users/Legion/Desktop/Li-Fi/Debug/Exe/Li-Fi project.out	ee805a7f42bfb6a2
+2	114	7243331398774080	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/Li-Fi/Laser.o	37b2bd44f7beb1e7
+1	119	7242779782475401	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/ADC/adc.o	2b74d284b4530490
+10	391	7243155206441337	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/Timer/Timer0A.o	a199e416043dcad9
+6	182	7243158939111577	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/Sensors/Ultrasonic-Sensor/ultrasonic-sensor.o	b9feb9b0b324a99f
+2	104	7243337393786699	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/main.o	b61839811742a227
+107	148	7243337394275228	C:/Users/Legion/Desktop/Li-Fi/Debug/Exe/Li-Fi project.out	ee805a7f42bfb6a2
+2	199	7243340283600216	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/Li-Fi/Laser.o	37b2bd44f7beb1e7
+7	218	7243340283779737	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/main.o	b61839811742a227
+222	259	7243340284238506	C:/Users/Legion/Desktop/Li-Fi/Debug/Exe/Li-Fi project.out	ee805a7f42bfb6a2
+3	384	7243342577366519	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/main.o	b61839811742a227
+387	505	7243342578613179	C:/Users/Legion/Desktop/Li-Fi/Debug/Exe/Li-Fi project.out	ee805a7f42bfb6a2
+2	95	7243343065821822	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/main.o	b61839811742a227
+97	137	7243343066260646	C:/Users/Legion/Desktop/Li-Fi/Debug/Exe/Li-Fi project.out	ee805a7f42bfb6a2
+2	189	7243343683620049	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/main.o	b61839811742a227
+192	230	7243343684088791	C:/Users/Legion/Desktop/Li-Fi/Debug/Exe/Li-Fi project.out	ee805a7f42bfb6a2
+3	185	7243348764423701	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/main.o	b61839811742a227
+188	228	7243348764902414	C:/Users/Legion/Desktop/Li-Fi/Debug/Exe/Li-Fi project.out	ee805a7f42bfb6a2
+2	92	7243349032923464	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/main.o	b61839811742a227
+95	135	7243349033392222	C:/Users/Legion/Desktop/Li-Fi/Debug/Exe/Li-Fi project.out	ee805a7f42bfb6a2
+6	111	7243350100931299	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/main.o	b61839811742a227
+2	124	7243350101050976	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/Li-Fi/Laser.o	37b2bd44f7beb1e7
+127	165	7243350101499773	C:/Users/Legion/Desktop/Li-Fi/Debug/Exe/Li-Fi project.out	ee805a7f42bfb6a2
+2	96	7243351194808565	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/main.o	b61839811742a227
+99	142	7243351195307215	C:/Users/Legion/Desktop/Li-Fi/Debug/Exe/Li-Fi project.out	ee805a7f42bfb6a2
+3	212	7243352419287439	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/main.o	b61839811742a227
+215	253	7243352419736246	C:/Users/Legion/Desktop/Li-Fi/Debug/Exe/Li-Fi project.out	ee805a7f42bfb6a2
+19	221	7243392898643820	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/main.o	b61839811742a227
+10	252	7243392898972930	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/Li-Fi/Laser.o	37b2bd44f7beb1e7
+255	303	7243392899521474	C:/Users/Legion/Desktop/Li-Fi/Debug/Exe/Li-Fi project.out	ee805a7f42bfb6a2
+2	145	7243393521515420	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/Li-Fi/Laser.o	37b2bd44f7beb1e7
+149	204	7243393522193624	C:/Users/Legion/Desktop/Li-Fi/Debug/Exe/Li-Fi project.out	ee805a7f42bfb6a2
+1	102	7243394461914342	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/Li-Fi/Laser.o	37b2bd44f7beb1e7
+105	146	7243394462393049	C:/Users/Legion/Desktop/Li-Fi/Debug/Exe/Li-Fi project.out	ee805a7f42bfb6a2
+7	209	7243398568667051	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/Sensors/Magnetic-Sensor/magnetic-sensor.o	9b78c2da77bd822d
+2	224	7243398568746842	C:/Users/Legion/Desktop/Li-Fi/Debug/Obj/main.o	b61839811742a227
+226	273	7243398569335274	C:/Users/Legion/Desktop/Li-Fi/Debug/Exe/Li-Fi project.out	ee805a7f42bfb6a2

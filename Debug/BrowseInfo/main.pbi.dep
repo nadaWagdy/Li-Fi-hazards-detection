@@ -1,0 +1,29 @@
+C:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\main.pbi: \
+  C:\Users\Legion\Desktop\Li-Fi\main.c \
+  C:\Users\Legion\Desktop\Li-Fi\tm4c123gh6pm.h \
+  C:\Users\Legion\Desktop\Li-Fi\Sensors\Fume-Sensor\fume_sensor.h \
+  C:\Users\Legion\Desktop\Li-Fi\Sensors\Fume-Sensor\..\..\tm4c123gh6pm.h \
+  C:\Users\Legion\Desktop\Li-Fi\Sensors\Fume-Sensor\..\..\ADC\adc.h \
+  C:\Users\Legion\Desktop\Li-Fi\Sensors\Fume-Sensor\..\..\ADC\..\tm4c123gh6pm.h \
+  C:\Users\Legion\Desktop\Li-Fi\Sensors\Ultrasonic-Sensor\ultrasonic-sensor.h \
+  C:\Users\Legion\Desktop\Li-Fi\Sensors\Ultrasonic-Sensor\..\..\tm4c123gh6pm.h \
+  C:\Users\Legion\Desktop\Li-Fi\Sensors\Ultrasonic-Sensor\..\..\Timer\Timer0A.h \
+  C:\Users\Legion\Desktop\Li-Fi\Sensors\Ultrasonic-Sensor\..\..\Timer\..\tm4c123gh6pm.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\stdio.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\ycheck.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\yvals.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\DLib_Product.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\ysizet.h \
+  C:\Users\Legion\Desktop\Li-Fi\Sensors\Magnetic-Sensor\magnetic-sensor.h \
+  C:\Users\Legion\Desktop\Li-Fi\Sensors\Magnetic-Sensor\..\..\tm4c123gh6pm.h \
+  C:\Users\Legion\Desktop\Li-Fi\Sensors\Magnetic-Sensor\..\..\bitwise_operation.h \
+  C:\Users\Legion\Desktop\Li-Fi\Sensors\Magnetic-Sensor\..\Ultrasonic-Sensor\ultrasonic-sensor.h \
+  C:\Users\Legion\Desktop\Li-Fi\Sensors\Magnetic-Sensor\..\..\Li-Fi\Laser.h \
+  C:\Users\Legion\Desktop\Li-Fi\Sensors\Magnetic-Sensor\..\..\Li-Fi\..\tm4c123gh6pm.h \
+  C:\Users\Legion\Desktop\Li-Fi\Sensors\Magnetic-Sensor\..\..\Li-Fi\..\bitwise_operation.h \
+  C:\Users\Legion\Desktop\Li-Fi\Sensors\Magnetic-Sensor\..\..\Li-Fi\..\Timer\Timer0A.h \
+  C:\Users\Legion\Desktop\Li-Fi\Sensors\Magnetic-Sensor\..\..\Li-Fi\..\Sensors\Ultrasonic-Sensor\ultrasonic-sensor.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\stdbool.h \
+  C:\Users\Legion\Desktop\Li-Fi\Li-Fi\Laser.h

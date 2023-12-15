@@ -1,0 +1,227 @@
+###############################################################################
+#
+# IAR ELF Linker V9.30.1.335/W64 for ARM                  15/Dec/2023  12:37:36
+# Copyright 2007-2022 IAR Systems AB.
+#
+#    Output file  =  C:\Users\Legion\Desktop\Li-Fi\Debug\Exe\Li-Fi project.out
+#    Map file     =  C:\Users\Legion\Desktop\Li-Fi\Debug\List\Li-Fi project.map
+#    Command line =
+#        -f "C:\Users\Legion\Desktop\Li-Fi\Debug\Exe\Li-Fi project.out.rsp"
+#        (C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\ADC\adc.o
+#        C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Sensors\Fume-Sensor\fume_sensor.o
+#        C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Li-Fi\Laser.o
+#        C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Sensors\Magnetic-Sensor\magnetic-sensor.o
+#        C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\main.o
+#        C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Timer\Timer0A.o
+#        C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Sensors\Ultrasonic-Sensor\ultrasonic-sensor.o
+#        --no_out_extension -o "C:\Users\Legion\Desktop\Li-Fi\Debug\Exe\Li-Fi
+#        project.out" --redirect _Printf=_PrintfFullNoMb --redirect
+#        _Scanf=_ScanfFullNoMb --map
+#        "C:\Users\Legion\Desktop\Li-Fi\Debug\List\Li-Fi project.map" --config
+#        "C:\Program Files\IAR Systems\Embedded Workbench
+#        9.1\arm/config/linker/TexasInstruments/TM4C123GH6.icf" --semihosting
+#        --entry __iar_program_start --vfe --text_out locale --cpu=Cortex-M4
+#        --fpu=VFPv4_sp)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because --advanced_heap
+was not specified and the application did not appear to
+be primarily optimized for speed.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x3'ffff] { ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
+          rw, block CSTACK, block HEAP };
+
+No sections matched the following patterns:
+
+  rw  in "P2"
+
+
+  Section   Kind         Address    Size  Object
+  -------   ----         -------    ----  ------
+"A0":                               0x40
+  .intvec   ro code          0x0    0x40  vector_table_M.o [10]
+                          - 0x40    0x40
+
+"P1":                              0x234
+  .text     ro code         0x40    0xb0  Laser.o [3]
+  .text     ro code         0xf0    0x16  ultrasonic-sensor.o [6]
+  .text     ro code        0x106     0x2  vectortrap_M.o [10]
+  .text     ro code        0x108    0x64  Timer0A.o [7]
+  .text     ro code        0x16c    0x70  magnetic-sensor.o [5]
+  .text     ro code        0x1dc    0x22  fpinit_M.o [9]
+  .text     ro code        0x200    0x1e  cmain.o [10]
+  .text     ro code        0x21e     0x4  low_level_init.o [8]
+  .text     ro code        0x222    0x10  main.o [1]
+  .text     ro code        0x232     0x4  exit.o [8]
+  .text     ro code        0x238     0xa  cexit.o [10]
+  .text     ro code        0x244    0x14  exit.o [11]
+  .text     ro code        0x258    0x1c  cstartup_M.o [10]
+                         - 0x274   0x234
+
+"P2":                             0x1000
+  CSTACK             0x2000'0000  0x1000  <Block>
+    CSTACK  uninit   0x2000'0000  0x1000  <Block tail>
+                   - 0x2000'1000  0x1000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0x274     0x3'ffff  0x3'fd8c
+  0x2000'1000  0x2000'7fff    0x7000
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  rw data
+    ------               -------  -------
+command line/config:
+    -------------------------------------
+    Total:
+
+C:\Users\Legion\Desktop\Li-Fi\Debug\Obj: [1]
+    main.o                    16
+    -------------------------------------
+    Total:                    16
+
+C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\ADC: [2]
+    -------------------------------------
+    Total:
+
+C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Li-Fi: [3]
+    Laser.o                  176
+    -------------------------------------
+    Total:                   176
+
+C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Sensors\Fume-Sensor: [4]
+    -------------------------------------
+    Total:
+
+C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Sensors\Magnetic-Sensor: [5]
+    magnetic-sensor.o        112
+    -------------------------------------
+    Total:                   112
+
+C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Sensors\Ultrasonic-Sensor: [6]
+    ultrasonic-sensor.o       22
+    -------------------------------------
+    Total:                    22
+
+C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Timer: [7]
+    Timer0A.o                100
+    -------------------------------------
+    Total:                   100
+
+dl7M_tln.a: [8]
+    exit.o                     4
+    low_level_init.o           4
+    -------------------------------------
+    Total:                     8
+
+m7M_tls.a: [9]
+    fpinit_M.o                34
+    -------------------------------------
+    Total:                    34
+
+rt7M_tl.a: [10]
+    cexit.o                   10
+    cmain.o                   30
+    cstartup_M.o              28
+    vector_table_M.o          64
+    vectortrap_M.o             2
+    -------------------------------------
+    Total:                   134
+
+shb_l.a: [11]
+    exit.o                    20
+    -------------------------------------
+    Total:                    20
+
+    Gaps                       6
+    Linker created                  4'096
+-----------------------------------------
+    Grand Total:             628    4'096
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                     Address  Size  Type      Object
+-----                     -------  ----  ----      ------
+?main                       0x201        Code  Gb  cmain.o [10]
+BusFault_Handler            0x107        Code  Wk  vectortrap_M.o [10]
+CSTACK$$Base          0x2000'0000         --   Gb  - Linker created -
+CSTACK$$Limit         0x2000'1000         --   Gb  - Linker created -
+DebugMon_Handler            0x107        Code  Wk  vectortrap_M.o [10]
+Delay                        0xf1  0x16  Code  Gb  ultrasonic-sensor.o [6]
+Delay_MicroSecond           0x109  0x48  Code  Gb  Timer0A.o [7]
+HardFault_Handler           0x107        Code  Wk  vectortrap_M.o [10]
+MemManage_Handler           0x107        Code  Wk  vectortrap_M.o [10]
+NMI_Handler                 0x107        Code  Wk  vectortrap_M.o [10]
+PendSV_Handler              0x107        Code  Wk  vectortrap_M.o [10]
+Region$$Table$$Base           0x0         --   Gb  - Linker created -
+Region$$Table$$Limit          0x0         --   Gb  - Linker created -
+SVC_Handler                 0x107        Code  Wk  vectortrap_M.o [10]
+SysTick_Handler             0x107        Code  Wk  vectortrap_M.o [10]
+UsageFault_Handler          0x107        Code  Wk  vectortrap_M.o [10]
+__cmain                     0x201        Code  Gb  cmain.o [10]
+__exit                      0x245  0x14  Code  Gb  exit.o [11]
+__iar_init_vfp              0x1dd        Code  Gb  fpinit_M.o [9]
+__iar_program_start         0x259        Code  Gb  cstartup_M.o [10]
+__low_level_init            0x21f   0x4  Code  Gb  low_level_init.o [8]
+__vector_table                0x0        Data  Gb  vector_table_M.o [10]
+_call_main                  0x20d        Code  Gb  cmain.o [10]
+_exit                       0x239        Code  Gb  cexit.o [10]
+exit                        0x233   0x4  Code  Gb  exit.o [8]
+laser_init                   0x41  0x2a  Code  Gb  Laser.o [3]
+laser_transmit_data          0x6b  0x6e  Code  Gb  Laser.o [3]
+magnetic_get_read           0x1ab  0x1a  Code  Gb  magnetic-sensor.o [5]
+magnetic_init               0x16d  0x3e  Code  Gb  magnetic-sensor.o [5]
+main                        0x223  0x10  Code  Gb  main.o [1]
+
+
+[1] = C:\Users\Legion\Desktop\Li-Fi\Debug\Obj
+[2] = C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\ADC
+[3] = C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Li-Fi
+[4] = C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Sensors\Fume-Sensor
+[5] = C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Sensors\Magnetic-Sensor
+[6] = C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Sensors\Ultrasonic-Sensor
+[7] = C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Timer
+[8] = dl7M_tln.a
+[9] = m7M_tls.a
+[10] = rt7M_tl.a
+[11] = shb_l.a
+
+    628 bytes of readonly  code memory
+  4'096 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

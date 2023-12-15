@@ -1,0 +1,110 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\XclFileGenerator.exe" $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$in+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\XclFileGenerator.exe" $flags
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\SourceIndexer.exe" $flags
+  depfile = $out.dep
+  description = IAR_NEW_TOOL+++INDEXER+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\SourceIndexer.exe" $flags
+
+rule MAKEBROWSE
+  command = "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\makeBrowseData.exe" $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\makeBrowseData.exe" $flags
+
+rule PDBLINK
+  command = "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\PbdLink.exe" $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\PbdLink.exe" $flags
+
+
+
+#Build steps
+build C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\ADC\adc.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\Legion\Desktop\Li-Fi\ADC\adc.c -xcl_file C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\ADC\adc.xcl -macro_file C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\ADC\adc.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = C$:\Users\Legion\Desktop\Li-Fi\ADC\adc.c -o C$:\Users\Legion\Desktop\Li-Fi\Debug\Obj\ADC --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\ADC\adc.tmp
+  rspfile_name = C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\ADC\adc.xcl.rsp
+
+build C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi\Laser.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\Legion\Desktop\Li-Fi\Li-Fi\Laser.c -xcl_file C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi\Laser.xcl -macro_file C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi\Laser.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = C$:\Users\Legion\Desktop\Li-Fi\Li-Fi\Laser.c -o C$:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Li-Fi --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi\Laser.tmp
+  rspfile_name = C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi\Laser.xcl.rsp
+
+build C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Fume-Sensor\fume_sensor.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\Legion\Desktop\Li-Fi\Sensors\Fume-Sensor\fume_sensor.c -xcl_file C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Fume-Sensor\fume_sensor.xcl -macro_file C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Fume-Sensor\fume_sensor.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = C$:\Users\Legion\Desktop\Li-Fi\Sensors\Fume-Sensor\fume_sensor.c -o C$:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Sensors\Fume-Sensor --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Fume-Sensor\fume_sensor.tmp
+  rspfile_name = C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Fume-Sensor\fume_sensor.xcl.rsp
+
+build C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Magnetic-Sensor\magnetic-sensor.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\Legion\Desktop\Li-Fi\Sensors\Magnetic-Sensor\magnetic-sensor.c -xcl_file C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Magnetic-Sensor\magnetic-sensor.xcl -macro_file C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Magnetic-Sensor\magnetic-sensor.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = C$:\Users\Legion\Desktop\Li-Fi\Sensors\Magnetic-Sensor\magnetic-sensor.c -o C$:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Sensors\Magnetic-Sensor --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Magnetic-Sensor\magnetic-sensor.tmp
+  rspfile_name = C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Magnetic-Sensor\magnetic-sensor.xcl.rsp
+
+build C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Ultrasonic-Sensor\ultrasonic-sensor.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\Legion\Desktop\Li-Fi\Sensors\Ultrasonic-Sensor\ultrasonic-sensor.c -xcl_file C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Ultrasonic-Sensor\ultrasonic-sensor.xcl -macro_file C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Ultrasonic-Sensor\ultrasonic-sensor.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = C$:\Users\Legion\Desktop\Li-Fi\Sensors\Ultrasonic-Sensor\ultrasonic-sensor.c -o C$:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Sensors\Ultrasonic-Sensor --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Ultrasonic-Sensor\ultrasonic-sensor.tmp
+  rspfile_name = C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Ultrasonic-Sensor\ultrasonic-sensor.xcl.rsp
+
+build C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Timer\Timer0A.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\Legion\Desktop\Li-Fi\Timer\Timer0A.c -xcl_file C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Timer\Timer0A.xcl -macro_file C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Timer\Timer0A.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = C$:\Users\Legion\Desktop\Li-Fi\Timer\Timer0A.c -o C$:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Timer --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Timer\Timer0A.tmp
+  rspfile_name = C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Timer\Timer0A.xcl.rsp
+
+build C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\Legion\Desktop\Li-Fi\main.c -xcl_file C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\main.xcl -macro_file C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\main.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = C$:\Users\Legion\Desktop\Li-Fi\main.c -o C$:\Users\Legion\Desktop\Li-Fi\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\main.tmp
+  rspfile_name = C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\main.xcl.rsp
+
+build C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\ADC\adc.pbi : INDEXER C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\ADC\adc.xcl |  $
+C$:\Users\Legion\Desktop\Li-Fi\ADC\adc.c
+  flags = -out=C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\ADC\adc.pbi -f C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\ADC\adc.xcl
+
+build C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi\Laser.pbi : INDEXER C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi\Laser.xcl |  $
+C$:\Users\Legion\Desktop\Li-Fi\Li-Fi\Laser.c
+  flags = -out=C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi\Laser.pbi -f C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi\Laser.xcl
+
+build C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Fume-Sensor\fume_sensor.pbi : INDEXER C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Fume-Sensor\fume_sensor.xcl |  $
+C$:\Users\Legion\Desktop\Li-Fi\Sensors\Fume-Sensor\fume_sensor.c
+  flags = -out=C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Fume-Sensor\fume_sensor.pbi -f C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Fume-Sensor\fume_sensor.xcl
+
+build C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Magnetic-Sensor\magnetic-sensor.pbi : INDEXER C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Magnetic-Sensor\magnetic-sensor.xcl |  $
+C$:\Users\Legion\Desktop\Li-Fi\Sensors\Magnetic-Sensor\magnetic-sensor.c
+  flags = -out=C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Magnetic-Sensor\magnetic-sensor.pbi -f C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Magnetic-Sensor\magnetic-sensor.xcl
+
+build C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Ultrasonic-Sensor\ultrasonic-sensor.pbi : INDEXER C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Ultrasonic-Sensor\ultrasonic-sensor.xcl |  $
+C$:\Users\Legion\Desktop\Li-Fi\Sensors\Ultrasonic-Sensor\ultrasonic-sensor.c
+  flags = -out=C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Ultrasonic-Sensor\ultrasonic-sensor.pbi -f C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Ultrasonic-Sensor\ultrasonic-sensor.xcl
+
+build C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Timer\Timer0A.pbi : INDEXER C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Timer\Timer0A.xcl |  $
+C$:\Users\Legion\Desktop\Li-Fi\Timer\Timer0A.c
+  flags = -out=C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Timer\Timer0A.pbi -f C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Timer\Timer0A.xcl
+
+build C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\main.pbi : INDEXER C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\main.xcl |  $
+C$:\Users\Legion\Desktop\Li-Fi\main.c
+  flags = -out=C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\main.pbi -f C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\main.xcl
+
+build C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi$ project.pbw : MAKEBROWSE C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi$ project.pbd
+  flags = "C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi$ project.pbd" -output "C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi$ project.pbw"
+
+build C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi$ project_part0.pbi : PDBLINK C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\ADC\adc.pbi |  $
+C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi\Laser.pbi $
+C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Fume-Sensor\fume_sensor.pbi
+  flags = -M "C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi$ project_part0.pbi" C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\ADC\adc.pbi C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi\Laser.pbi C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Fume-Sensor\fume_sensor.pbi
+
+build C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi$ project_part1.pbi : PDBLINK C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Magnetic-Sensor\magnetic-sensor.pbi |  $
+C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Ultrasonic-Sensor\ultrasonic-sensor.pbi $
+C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Timer\Timer0A.pbi
+  flags = -M "C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi$ project_part1.pbi" C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Magnetic-Sensor\magnetic-sensor.pbi C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Sensors\Ultrasonic-Sensor\ultrasonic-sensor.pbi C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Timer\Timer0A.pbi
+
+build C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi$ project_part2.pbi : PDBLINK C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\main.pbi
+  flags = -M "C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi$ project_part2.pbi" C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\main.pbi
+
+build C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi$ project.pbd : PDBLINK C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi$ project_part0.pbi |  $
+C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi$ project_part1.pbi $
+C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi$ project_part2.pbi
+  flags = -M "C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi$ project.pbd" "C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi$ project_part0.pbi" "C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi$ project_part1.pbi" "C$:\Users\Legion\Desktop\Li-Fi\Debug\BrowseInfo\Li-Fi$ project_part2.pbi"
+
