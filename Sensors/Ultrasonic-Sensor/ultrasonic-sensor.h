@@ -3,6 +3,7 @@
 
 #include "../../tm4c123gh6pm.h"
 #include "../../Timer/Timer0A.h"
+#include "../../Li-Fi/Laser.h"
 #include <stdio.h>
 
 #define MAX_DISTANCE 10

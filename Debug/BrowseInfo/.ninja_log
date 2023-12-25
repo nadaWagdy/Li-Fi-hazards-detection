@@ -1,9 +1,9 @@
 # ninja log v5
 38	171	7243188500000000	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/main.xcl	37f0bdd821a9d1ad
-2	76	7243193456556148	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Sensors/Magnetic-Sensor/magnetic-sensor.pbi	f8821714e5d4bfe8
-178	763	7243352379892497	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbw	f069455d427449a2
-2	84	7243352373297009	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/main.pbi	42f7b9aa5da68148
-119	176	7243352374229977	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbd	f35b6e4dbbeab12f
+1	100	7251446833734227	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Sensors/Magnetic-Sensor/magnetic-sensor.pbi	f8821714e5d4bfe8
+252	1238	7251446844182964	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbw	f069455d427449a2
+1	79	7251404116150987	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/main.pbi	42f7b9aa5da68148
+177	247	7251446835230239	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbd	f35b6e4dbbeab12f
 179	288	7243188502924889	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Timer/Timer0A.pbi	324d4bd7e48934cd
 28	132	7243188500000000	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Sensors/Magnetic-Sensor/magnetic-sensor.xcl	5e192c4a576d0ef3
 25	165	7243188500000000	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Sensors/Fume-Sensor/fume_sensor.xcl	109328862a533173
@@ -12,51 +12,41 @@
 31	205	7243188500000000	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Sensors/Ultrasonic-Sensor/ultrasonic-sensor.xcl	ec3b5fc5712bf92
 162	260	7243188502805206	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/ADC/adc.pbi	840e368a9b9dd6d8
 168	261	7243188502815179	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Sensors/Fume-Sensor/fume_sensor.pbi	425a72486c5b05a8
-208	305	7243188503263982	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Sensors/Ultrasonic-Sensor/ultrasonic-sensor.pbi	f2c11e566aed7f1b
-86	143	7243349976419810	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part0.pbi	104f951610896d92
-63	138	7243312162084350	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part1.pbi	f1bef7e93bb762bf
-86	118	7243352373646324	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part2.pbi	f59b33b50120633a
+1	96	7251425019350587	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Sensors/Ultrasonic-Sensor/ultrasonic-sensor.pbi	f2c11e566aed7f1b
+428	492	7251419820965656	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part0.pbi	104f951610896d92
+103	171	7251446834452594	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part1.pbi	f1bef7e93bb762bf
+81	110	7251404116490096	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part2.pbi	f59b33b50120633a
 1	226	7243312160000000	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi/Laser.xcl	4ad03309cedb3193
-1	84	7243349975801452	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi/Laser.pbi	d915536b85ba236a
-2	238	7243392440917305	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi/Laser.pbi	d915536b85ba236a
-240	338	7243392441944552	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part0.pbi	104f951610896d92
-341	400	7243392442552932	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbd	f35b6e4dbbeab12f
-402	1234	7243392450661232	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbw	f069455d427449a2
-1	193	7243392805213736	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi/Laser.pbi	d915536b85ba236a
-195	262	7243392805921832	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part0.pbi	104f951610896d92
-265	333	7243392806629931	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbd	f35b6e4dbbeab12f
-335	949	7243392812564066	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbw	f069455d427449a2
-2	94	7243392914802867	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/main.pbi	42f7b9aa5da68148
-96	128	7243392915161911	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part2.pbi	f59b33b50120633a
-131	192	7243392915795561	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbd	f35b6e4dbbeab12f
-195	789	7243392921501396	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbw	f069455d427449a2
-1	81	7243393425909405	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi/Laser.pbi	d915536b85ba236a
-83	141	7243393426517772	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part0.pbi	104f951610896d92
-144	204	7243393427146087	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbd	f35b6e4dbbeab12f
-206	804	7243393432890726	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbw	f069455d427449a2
-1	84	7243394390313314	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi/Laser.pbi	d915536b85ba236a
-86	144	7243394390921706	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part0.pbi	104f951610896d92
-146	204	7243394391530060	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbd	f35b6e4dbbeab12f
-206	809	7243394397314579	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbw	f069455d427449a2
-1	79	7243394448836763	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi/Laser.pbi	d915536b85ba236a
-82	149	7243394449544885	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part0.pbi	104f951610896d92
-151	211	7243394450173189	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbd	f35b6e4dbbeab12f
-214	835	7243394456209601	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbw	f069455d427449a2
-1	88	7243395111539300	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/main.pbi	42f7b9aa5da68148
-89	120	7243395111888366	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part2.pbi	f59b33b50120633a
-122	184	7243395112526647	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbd	f35b6e4dbbeab12f
-187	794	7243395118420884	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbw	f069455d427449a2
-2	192	7243395623822925	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Sensors/Magnetic-Sensor/magnetic-sensor.pbi	f8821714e5d4bfe8
-194	255	7243395624461217	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part1.pbi	f1bef7e93bb762bf
-257	317	7243395625079563	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbd	f35b6e4dbbeab12f
-319	887	7243395630574861	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbw	f069455d427449a2
-5	95	7243395933737202	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Sensors/Magnetic-Sensor/magnetic-sensor.pbi	f8821714e5d4bfe8
-2	101	7243395933787064	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/main.pbi	42f7b9aa5da68148
-103	140	7243395934206059	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part2.pbi	f59b33b50120633a
-97	159	7243395934405412	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part1.pbi	f1bef7e93bb762bf
-162	220	7243395935013794	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbd	f35b6e4dbbeab12f
-222	832	7243395940888079	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbw	f069455d427449a2
-1	84	7243396042815827	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/main.pbi	42f7b9aa5da68148
-86	116	7243396043154922	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part2.pbi	f59b33b50120633a
-118	175	7243396043743341	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbd	f35b6e4dbbeab12f
-177	778	7243396049567755	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbw	f069455d427449a2
+7	421	7251419820137941	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi/Laser.pbi	d915536b85ba236a
+1	113	7251446997867336	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Sensors/Ultrasonic-Sensor/ultrasonic-sensor.pbi	f2c11e566aed7f1b
+116	194	7251446998695125	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part1.pbi	f1bef7e93bb762bf
+200	284	7251446999592722	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbd	f35b6e4dbbeab12f
+4	1184	7251447066648835	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbw	f069455d427449a2
+2	99	7251447933606087	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Sensors/Ultrasonic-Sensor/ultrasonic-sensor.pbi	f2c11e566aed7f1b
+103	168	7251447934314190	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part1.pbi	f1bef7e93bb762bf
+171	237	7251447934992377	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbd	f35b6e4dbbeab12f
+243	1291	7251447943721926	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbw	f069455d427449a2
+2	245	7251447999051449	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Sensors/Magnetic-Sensor/magnetic-sensor.pbi	f8821714e5d4bfe8
+251	329	7251447999906021	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part1.pbi	f1bef7e93bb762bf
+334	405	7251448000663995	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbd	f35b6e4dbbeab12f
+411	1579	7251448010563701	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbw	f069455d427449a2
+2	122	7251461800279994	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Sensors/Magnetic-Sensor/magnetic-sensor.pbi	f8821714e5d4bfe8
+257	339	7251461802511398	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part1.pbi	f1bef7e93bb762bf
+345	425	7251461803369092	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbd	f35b6e4dbbeab12f
+428	1581	7251461813108279	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbw	f069455d427449a2
+13	167	7251461970041869	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Sensors/Ultrasonic-Sensor/ultrasonic-sensor.pbi	f2c11e566aed7f1b
+170	236	7251461970759960	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part1.pbi	f1bef7e93bb762bf
+240	306	7251461971458414	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbd	f35b6e4dbbeab12f
+310	1439	7251461981439899	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbw	f069455d427449a2
+1	109	7251471348904357	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Sensors/Magnetic-Sensor/magnetic-sensor.pbi	f8821714e5d4bfe8
+114	194	7251471349771914	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part1.pbi	f1bef7e93bb762bf
+200	281	7251471350649558	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbd	f35b6e4dbbeab12f
+285	1403	7251471360045030	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbw	f069455d427449a2
+4	518	7251471418251269	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Sensors/Ultrasonic-Sensor/ultrasonic-sensor.pbi	f2c11e566aed7f1b
+522	590	7251471418999276	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part1.pbi	f1bef7e93bb762bf
+594	664	7251471419737302	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbd	f35b6e4dbbeab12f
+669	1658	7251471428506592	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbw	f069455d427449a2
+1	105	7251478458196681	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi/Laser.pbi	d915536b85ba236a
+107	172	7251478458884854	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project_part0.pbi	104f951610896d92
+177	244	7251478459602929	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbd	f35b6e4dbbeab12f
+248	1388	7251478469251801	C:/Users/Legion/Desktop/Li-Fi/Debug/BrowseInfo/Li-Fi project.pbw	f069455d427449a2

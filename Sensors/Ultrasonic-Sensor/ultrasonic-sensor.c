@@ -29,9 +29,14 @@ void ultrasonic_sensor_start(void)
     /* The following part will be deleted and is only there for testing the sensor*/
     /*************************************************************************************/
     if(distance > MAX_DISTANCE)
-      GPIO_PORTF_DATA_R  = 0x08;
+    {
+      //GPIO_PORTF_DATA_R  = 0x08;
+      laser_transmit_data(1, 0, 1);
+    }
     else if (distance < MAX_DISTANCE)
-      GPIO_PORTF_DATA_R  = 0x04;
+    {
+      //GPIO_PORTF_DATA_R  = 0x04;
+    }
     Delay(2000);
     /*************************************************************************************/
 }

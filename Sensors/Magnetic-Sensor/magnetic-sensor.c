@@ -23,12 +23,12 @@ void magnetic_get_read()
 {
     if(Get_Bit(GPIO_PORTB_DATA_R , 2))
     { 
-       //GPIO_PORTF_DATA_R  = 0x08;     
+       //GPIO_PORTF_DATA_R  = 0x08; 
     }
     else 
     {
       // door is opened
        //GPIO_PORTF_DATA_R  = 0x04;
-      laser_transmit_data(1, 0, 1);
+      laser_transmit_data(1, 1, 1);
     }
 }

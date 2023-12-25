@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.30.1.335/W64 for ARM                  15/Dec/2023  12:37:36
+# IAR ELF Linker V9.30.1.335/W64 for ARM                  24/Dec/2023  21:03:58
 # Copyright 2007-2022 IAR Systems AB.
 #
 #    Output file  =  C:\Users\Legion\Desktop\Li-Fi\Debug\Exe\Li-Fi project.out
@@ -55,44 +55,84 @@ define block HEAP with size = 8K, alignment = 8 { };
 "P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
           rw, block CSTACK, block HEAP };
 
-No sections matched the following patterns:
+  Section          Kind         Address    Size  Object
+  -------          ----         -------    ----  ------
+"A0":                                      0x40
+  .intvec          ro code          0x0    0x40  vector_table_M.o [10]
+                                 - 0x40    0x40
 
-  rw  in "P2"
+"P1":                                    0x1fdc
+  .text            ro code         0x40   0xe8e  xprintffull_nomb.o [8]
+  .text            ro code        0xece     0xa  xsprout.o [8]
+  .text            ro code        0xed8    0x16  strchr.o [10]
+  .text            ro code        0xeee     0x2  vectortrap_M.o [10]
+  .text            ro code        0xef0    0x40  xfail_s.o [8]
+  .text            ro code        0xf30    0x36  strlen.o [10]
+  .text            ro code        0xf68    0x58  memchr.o [10]
+  .text            ro code        0xfc0    0x76  ABImemcpy_unaligned.o [10]
+  .text            ro code       0x1038    0x70  frexp.o [9]
+  .text            ro code       0x10a8    0x34  DblCmpLe.o [9]
+  .text            ro code       0x10dc    0x34  DblCmpGe.o [9]
+  .text            ro code       0x1110   0x13a  ldexp.o [9]
+  .text            ro code       0x124c    0x36  DblToS32.o [9]
+  .text            ro code       0x1284    0x22  S32ToDbl.o [9]
+  .text            ro code       0x12a8   0x24e  DblAddSub.o [9]
+  .text            ro code       0x14f8   0x246  DblDiv.o [9]
+  .text            ro code       0x1740    0x22  DblToU32.o [9]
+  .text            ro code       0x1764    0x1c  U32ToDbl.o [9]
+  .text            ro code       0x1780   0x1aa  DblMul.o [9]
+  .text            ro code       0x192c   0x230  I64DivMod.o [10]
+  .text            ro code       0x1b5c     0x6  abort.o [8]
+  .text            ro code       0x1b64     0x2  I64DivZer.o [10]
+  .text            ro code       0x1b68    0x14  exit.o [11]
+  .text            ro code       0x1b7c   0x114  Timer0A.o [7]
+  .text            ro code       0x1c90   0x106  ultrasonic-sensor.o [6]
+  .text            ro code       0x1d98    0x40  sprintf.o [8]
+  .text            ro code       0x1dd8    0xc4  Laser.o [3]
+  .text            ro code       0x1e9c    0x70  magnetic-sensor.o [5]
+  .text            ro code       0x1f0c    0x38  zero_init3.o [10]
+  .text            ro code       0x1f44    0x28  data_init.o [10]
+  .text            ro code       0x1f6c    0x22  fpinit_M.o [9]
+  .iar.init_table  const         0x1f90    0x10  - Linker created -
+  .text            ro code       0x1fa0    0x1e  cmain.o [10]
+  .text            ro code       0x1fbe     0x4  low_level_init.o [8]
+  .text            ro code       0x1fc2    0x18  main.o [1]
+  .text            ro code       0x1fda     0x4  exit.o [8]
+  .text            ro code       0x1fe0     0xa  cexit.o [10]
+  .text            ro code       0x1fec    0x1c  cstartup_M.o [10]
+  .rodata          const         0x2008    0x14  ultrasonic-sensor.o [6]
+  .rodata          const         0x201c     0x0  zero_init3.o [10]
+                               - 0x201c  0x1fdc
 
+"P2", part 1 of 2:                         0x20
+  .bss             zero     0x2000'0000    0x14  ultrasonic-sensor.o [6]
+  .bss             zero     0x2000'0014     0x4  ultrasonic-sensor.o [6]
+  .bss             zero     0x2000'0018     0x4  ultrasonic-sensor.o [6]
+  .bss             zero     0x2000'001c     0x4  xfail_s.o [8]
+                          - 0x2000'0020    0x20
 
-  Section   Kind         Address    Size  Object
-  -------   ----         -------    ----  ------
-"A0":                               0x40
-  .intvec   ro code          0x0    0x40  vector_table_M.o [10]
-                          - 0x40    0x40
-
-"P1":                              0x234
-  .text     ro code         0x40    0xb0  Laser.o [3]
-  .text     ro code         0xf0    0x16  ultrasonic-sensor.o [6]
-  .text     ro code        0x106     0x2  vectortrap_M.o [10]
-  .text     ro code        0x108    0x64  Timer0A.o [7]
-  .text     ro code        0x16c    0x70  magnetic-sensor.o [5]
-  .text     ro code        0x1dc    0x22  fpinit_M.o [9]
-  .text     ro code        0x200    0x1e  cmain.o [10]
-  .text     ro code        0x21e     0x4  low_level_init.o [8]
-  .text     ro code        0x222    0x10  main.o [1]
-  .text     ro code        0x232     0x4  exit.o [8]
-  .text     ro code        0x238     0xa  cexit.o [10]
-  .text     ro code        0x244    0x14  exit.o [11]
-  .text     ro code        0x258    0x1c  cstartup_M.o [10]
-                         - 0x274   0x234
-
-"P2":                             0x1000
-  CSTACK             0x2000'0000  0x1000  <Block>
-    CSTACK  uninit   0x2000'0000  0x1000  <Block tail>
-                   - 0x2000'1000  0x1000
+"P2", part 2 of 2:                       0x1000
+  CSTACK                    0x2000'0020  0x1000  <Block>
+    CSTACK         uninit   0x2000'0020  0x1000  <Block tail>
+                          - 0x2000'1020  0x1000
 
 Unused ranges:
 
          From           To      Size
          ----           --      ----
-        0x274     0x3'ffff  0x3'fd8c
-  0x2000'1000  0x2000'7fff    0x7000
+       0x201c     0x3'ffff  0x3'dfe4
+  0x2000'1020  0x2000'7fff    0x6fe0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x20:
+          0x2000'0000  0x20
 
 
 
@@ -100,112 +140,194 @@ Unused ranges:
 *** MODULE SUMMARY
 ***
 
-    Module               ro code  rw data
-    ------               -------  -------
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
 command line/config:
-    -------------------------------------
+    ------------------------------------------------
     Total:
 
 C:\Users\Legion\Desktop\Li-Fi\Debug\Obj: [1]
-    main.o                    16
-    -------------------------------------
-    Total:                    16
+    main.o                      24
+    ------------------------------------------------
+    Total:                      24
 
 C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\ADC: [2]
-    -------------------------------------
+    ------------------------------------------------
     Total:
 
 C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Li-Fi: [3]
-    Laser.o                  176
-    -------------------------------------
-    Total:                   176
+    Laser.o                    196
+    ------------------------------------------------
+    Total:                     196
 
 C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Sensors\Fume-Sensor: [4]
-    -------------------------------------
+    ------------------------------------------------
     Total:
 
 C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Sensors\Magnetic-Sensor: [5]
-    magnetic-sensor.o        112
-    -------------------------------------
-    Total:                   112
+    magnetic-sensor.o          112
+    ------------------------------------------------
+    Total:                     112
 
 C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Sensors\Ultrasonic-Sensor: [6]
-    ultrasonic-sensor.o       22
-    -------------------------------------
-    Total:                    22
+    ultrasonic-sensor.o        262       20       28
+    ------------------------------------------------
+    Total:                     262       20       28
 
 C:\Users\Legion\Desktop\Li-Fi\Debug\Obj\Timer: [7]
-    Timer0A.o                100
-    -------------------------------------
-    Total:                   100
+    Timer0A.o                  276
+    ------------------------------------------------
+    Total:                     276
 
 dl7M_tln.a: [8]
-    exit.o                     4
-    low_level_init.o           4
-    -------------------------------------
-    Total:                     8
+    abort.o                      6
+    exit.o                       4
+    low_level_init.o             4
+    sprintf.o                   64
+    xfail_s.o                   64                 4
+    xprintffull_nomb.o       3'726
+    xsprout.o                   10
+    ------------------------------------------------
+    Total:                   3'878                 4
 
 m7M_tls.a: [9]
-    fpinit_M.o                34
-    -------------------------------------
-    Total:                    34
+    DblAddSub.o                590
+    DblCmpGe.o                  52
+    DblCmpLe.o                  52
+    DblDiv.o                   582
+    DblMul.o                   426
+    DblToS32.o                  54
+    DblToU32.o                  34
+    S32ToDbl.o                  34
+    U32ToDbl.o                  28
+    fpinit_M.o                  34
+    frexp.o                    112
+    ldexp.o                    314
+    ------------------------------------------------
+    Total:                   2'312
 
 rt7M_tl.a: [10]
-    cexit.o                   10
-    cmain.o                   30
-    cstartup_M.o              28
-    vector_table_M.o          64
-    vectortrap_M.o             2
-    -------------------------------------
-    Total:                   134
+    ABImemcpy_unaligned.o      118
+    I64DivMod.o                560
+    I64DivZer.o                  2
+    cexit.o                     10
+    cmain.o                     30
+    cstartup_M.o                28
+    data_init.o                 40
+    memchr.o                    88
+    strchr.o                    22
+    strlen.o                    54
+    vector_table_M.o            64
+    vectortrap_M.o               2
+    zero_init3.o                56
+    ------------------------------------------------
+    Total:                   1'074
 
 shb_l.a: [11]
-    exit.o                    20
-    -------------------------------------
-    Total:                    20
+    exit.o                      20
+    ------------------------------------------------
+    Total:                      20
 
-    Gaps                       6
-    Linker created                  4'096
------------------------------------------
-    Grand Total:             628    4'096
+    Gaps                        28        2
+    Linker created                       16    4'096
+----------------------------------------------------
+    Grand Total:             8'182       38    4'128
 
 
 *******************************************************************************
 *** ENTRY LIST
 ***
 
-Entry                     Address  Size  Type      Object
------                     -------  ----  ----      ------
-?main                       0x201        Code  Gb  cmain.o [10]
-BusFault_Handler            0x107        Code  Wk  vectortrap_M.o [10]
-CSTACK$$Base          0x2000'0000         --   Gb  - Linker created -
-CSTACK$$Limit         0x2000'1000         --   Gb  - Linker created -
-DebugMon_Handler            0x107        Code  Wk  vectortrap_M.o [10]
-Delay                        0xf1  0x16  Code  Gb  ultrasonic-sensor.o [6]
-Delay_MicroSecond           0x109  0x48  Code  Gb  Timer0A.o [7]
-HardFault_Handler           0x107        Code  Wk  vectortrap_M.o [10]
-MemManage_Handler           0x107        Code  Wk  vectortrap_M.o [10]
-NMI_Handler                 0x107        Code  Wk  vectortrap_M.o [10]
-PendSV_Handler              0x107        Code  Wk  vectortrap_M.o [10]
-Region$$Table$$Base           0x0         --   Gb  - Linker created -
-Region$$Table$$Limit          0x0         --   Gb  - Linker created -
-SVC_Handler                 0x107        Code  Wk  vectortrap_M.o [10]
-SysTick_Handler             0x107        Code  Wk  vectortrap_M.o [10]
-UsageFault_Handler          0x107        Code  Wk  vectortrap_M.o [10]
-__cmain                     0x201        Code  Gb  cmain.o [10]
-__exit                      0x245  0x14  Code  Gb  exit.o [11]
-__iar_init_vfp              0x1dd        Code  Gb  fpinit_M.o [9]
-__iar_program_start         0x259        Code  Gb  cstartup_M.o [10]
-__low_level_init            0x21f   0x4  Code  Gb  low_level_init.o [8]
-__vector_table                0x0        Data  Gb  vector_table_M.o [10]
-_call_main                  0x20d        Code  Gb  cmain.o [10]
-_exit                       0x239        Code  Gb  cexit.o [10]
-exit                        0x233   0x4  Code  Gb  exit.o [8]
-laser_init                   0x41  0x2a  Code  Gb  Laser.o [3]
-laser_transmit_data          0x6b  0x6e  Code  Gb  Laser.o [3]
-magnetic_get_read           0x1ab  0x1a  Code  Gb  magnetic-sensor.o [5]
-magnetic_init               0x16d  0x3e  Code  Gb  magnetic-sensor.o [5]
-main                        0x223  0x10  Code  Gb  main.o [1]
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base        0x1f90          --   Gb  - Linker created -
+.iar.init_table$$Limit       0x1fa0          --   Gb  - Linker created -
+?main                        0x1fa1         Code  Gb  cmain.o [10]
+BusFault_Handler              0xeef         Code  Wk  vectortrap_M.o [10]
+CSTACK$$Base            0x2000'0020          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'1020          --   Gb  - Linker created -
+DebugMon_Handler              0xeef         Code  Wk  vectortrap_M.o [10]
+Delay                        0x1d81   0x16  Code  Gb  ultrasonic-sensor.o [6]
+Delay_MicroSecond            0x1c05   0x48  Code  Gb  Timer0A.o [7]
+HardFault_Handler             0xeef         Code  Wk  vectortrap_M.o [10]
+Measure_distance             0x1cf9   0x52  Code  Gb  ultrasonic-sensor.o [6]
+MemManage_Handler             0xeef         Code  Wk  vectortrap_M.o [10]
+NMI_Handler                   0xeef         Code  Wk  vectortrap_M.o [10]
+PendSV_Handler                0xeef         Code  Wk  vectortrap_M.o [10]
+Region$$Table$$Base          0x1f90          --   Gb  - Linker created -
+Region$$Table$$Limit         0x1fa0          --   Gb  - Linker created -
+SVC_Handler                   0xeef         Code  Wk  vectortrap_M.o [10]
+SysTick_Handler               0xeef         Code  Wk  vectortrap_M.o [10]
+Timer0ACapture_init          0x1b7d   0x88  Code  Gb  Timer0A.o [7]
+UsageFault_Handler            0xeef         Code  Wk  vectortrap_M.o [10]
+_LC                            0x41    0x6  Code  Lc  xprintffull_nomb.o [8]
+_LitobFullNoMb                0xcd1  0x114  Code  Lc  xprintffull_nomb.o [8]
+_PrintfFullNoMb                0x47  0xc76  Code  Gb  xprintffull_nomb.o [8]
+_PutcharsFullNoMb             0xe3d   0x2e  Code  Lc  xprintffull_nomb.o [8]
+_SProut                       0xecf    0xa  Code  Gb  xsprout.o [8]
+__aeabi_cdcmple              0x10a9         Code  Gb  DblCmpLe.o [9]
+__aeabi_cdrcmple             0x10dd         Code  Gb  DblCmpGe.o [9]
+__aeabi_d2iz                 0x124d         Code  Gb  DblToS32.o [9]
+__aeabi_d2uiz                0x1741         Code  Gb  DblToU32.o [9]
+__aeabi_ddiv                 0x14f9         Code  Gb  DblDiv.o [9]
+__aeabi_dmul                 0x1781         Code  Gb  DblMul.o [9]
+__aeabi_dsub                 0x1415         Code  Gb  DblAddSub.o [9]
+__aeabi_i2d                  0x1285         Code  Gb  S32ToDbl.o [9]
+__aeabi_ldiv0                0x1b65         Code  Gb  I64DivZer.o [10]
+__aeabi_ui2d                 0x1765         Code  Gb  U32ToDbl.o [9]
+__aeabi_uldivmod             0x192d         Code  Gb  I64DivMod.o [10]
+__cmain                      0x1fa1         Code  Gb  cmain.o [10]
+__exit                       0x1b69   0x14  Code  Gb  exit.o [11]
+__iar_Fail_s                  0xef1   0x1c  Code  Gb  xfail_s.o [8]
+__iar_Memchr                  0xf69         Code  Gb  memchr.o [10]
+__iar_Strchr                  0xed9         Code  Gb  strchr.o [10]
+__iar_data_init3             0x1f45   0x28  Code  Gb  data_init.o [10]
+__iar_frexp                  0x1045         Code  Gb  frexp.o [9]
+__iar_frexpl                 0x1045         Code  Gb  frexp.o [9]
+__iar_init_vfp               0x1f6d         Code  Gb  fpinit_M.o [9]
+__iar_ldexp64                0x1111         Code  Gb  ldexp.o [9]
+__iar_program_start          0x1fed         Code  Gb  cstartup_M.o [10]
+__iar_scalbln64              0x1111         Code  Gb  ldexp.o [9]
+__iar_scalbn64               0x1111         Code  Gb  ldexp.o [9]
+__iar_softfp___iar_frexp64
+                             0x1039         Code  Gb  frexp.o [9]
+__iar_softfp_frexp           0x1039         Code  Gb  frexp.o [9]
+__iar_softfp_frexpl          0x1039         Code  Gb  frexp.o [9]
+__iar_unaligned_memcpy        0xfc1         Code  Gb  ABImemcpy_unaligned.o [10]
+__iar_unaligned_memcpy4
+                              0xfe1         Code  Gb  ABImemcpy_unaligned.o [10]
+__iar_unaligned_memcpy8
+                              0xfe1         Code  Gb  ABImemcpy_unaligned.o [10]
+__iar_zero_init3             0x1f0d   0x38  Code  Gb  zero_init3.o [10]
+__low_level_init             0x1fbf    0x4  Code  Gb  low_level_init.o [8]
+__vector_table                  0x0         Data  Gb  vector_table_M.o [10]
+_call_main                   0x1fad         Code  Gb  cmain.o [10]
+_exit                        0x1fe1         Code  Gb  cexit.o [10]
+abort                        0x1b5d    0x6  Code  Gb  abort.o [8]
+distance                0x2000'0018    0x4  Data  Gb  ultrasonic-sensor.o [6]
+exit                         0x1fdb    0x4  Code  Gb  exit.o [8]
+laser_init                   0x1dd9   0x2a  Code  Gb  Laser.o [3]
+laser_transmit_data          0x1e03   0x86  Code  Gb  Laser.o [3]
+ldexp                        0x1111         Code  Gb  ldexp.o [9]
+ldexpl                       0x1111         Code  Gb  ldexp.o [9]
+magnetic_get_read            0x1edb   0x1a  Code  Gb  magnetic-sensor.o [5]
+magnetic_init                0x1e9d   0x3e  Code  Gb  magnetic-sensor.o [5]
+main                         0x1fc3   0x18  Code  Gb  main.o [1]
+memchr                        0xf69         Code  Gb  memchr.o [10]
+mesg                    0x2000'0000   0x14  Data  Gb  ultrasonic-sensor.o [6]
+scalbln                      0x1111         Code  Gb  ldexp.o [9]
+scalblnl                     0x1111         Code  Gb  ldexp.o [9]
+scalbn                       0x1111         Code  Gb  ldexp.o [9]
+scalbnl                      0x1111         Code  Gb  ldexp.o [9]
+scale                         0xde5   0x46  Code  Lc  xprintffull_nomb.o [8]
+sec_hand                0x2000'001c    0x4  Data  Lc  xfail_s.o [8]
+sprintf                      0x1d99   0x40  Code  Gb  sprintf.o [8]
+strchr                        0xed9         Code  Gb  strchr.o [10]
+strlen                        0xf31         Code  Gb  strlen.o [10]
+time                    0x2000'0014    0x4  Data  Gb  ultrasonic-sensor.o [6]
+ultrasonic_sensor_init       0x1c91   0x26  Code  Gb  ultrasonic-sensor.o [6]
+ultrasonic_sensor_start
+                             0x1cb7   0x42  Code  Gb  ultrasonic-sensor.o [6]
 
 
 [1] = C:\Users\Legion\Desktop\Li-Fi\Debug\Obj
@@ -220,8 +342,9 @@ main                        0x223  0x10  Code  Gb  main.o [1]
 [10] = rt7M_tl.a
 [11] = shb_l.a
 
-    628 bytes of readonly  code memory
-  4'096 bytes of readwrite data memory
+  8'182 bytes of readonly  code memory
+     38 bytes of readonly  data memory
+  4'128 bytes of readwrite data memory
 
 Errors: none
 Warnings: none

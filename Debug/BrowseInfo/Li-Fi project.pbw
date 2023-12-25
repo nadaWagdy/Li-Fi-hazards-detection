@@ -95303,13 +95303,13 @@
     "scope": null
   },
   {
-    "ID": "c:ultrasonic-sensor.h@159@macro@MAX_DISTANCE",
+    "ID": "c:ultrasonic-sensor.h@191@macro@MAX_DISTANCE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "MAX_DISTANCE",
     "location": {
       "column": "9",
-      "line": "8",
+      "line": "9",
       "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Ultrasonic-Sensor\\ultrasonic-sensor.h"
     },
     "name": "MAX_DISTANCE",
@@ -95323,7 +95323,7 @@
     "display": "void ultrasonic_sensor_init(void)",
     "location": {
       "column": "6",
-      "line": "10",
+      "line": "11",
       "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Ultrasonic-Sensor\\ultrasonic-sensor.h"
     },
     "name": "ultrasonic_sensor_init",
@@ -95337,7 +95337,7 @@
     "display": "void ultrasonic_sensor_init(void)",
     "location": {
       "column": "6",
-      "line": "10",
+      "line": "11",
       "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Ultrasonic-Sensor\\ultrasonic-sensor.h"
     },
     "name": "ultrasonic_sensor_init",
@@ -95351,7 +95351,7 @@
     "display": "void ultrasonic_sensor_start(void)",
     "location": {
       "column": "6",
-      "line": "11",
+      "line": "12",
       "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Ultrasonic-Sensor\\ultrasonic-sensor.h"
     },
     "name": "ultrasonic_sensor_start",
@@ -95365,7 +95365,7 @@
     "display": "void ultrasonic_sensor_start(void)",
     "location": {
       "column": "6",
-      "line": "11",
+      "line": "12",
       "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Ultrasonic-Sensor\\ultrasonic-sensor.h"
     },
     "name": "ultrasonic_sensor_start",
@@ -95379,7 +95379,7 @@
     "display": "unsigned long Measure_distance(void)",
     "location": {
       "column": "15",
-      "line": "12",
+      "line": "13",
       "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Ultrasonic-Sensor\\ultrasonic-sensor.h"
     },
     "name": "Measure_distance",
@@ -95393,7 +95393,7 @@
     "display": "unsigned long Measure_distance(void)",
     "location": {
       "column": "15",
-      "line": "12",
+      "line": "13",
       "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Ultrasonic-Sensor\\ultrasonic-sensor.h"
     },
     "name": "Measure_distance",
@@ -95407,7 +95407,7 @@
     "display": "void Delay(unsigned long)",
     "location": {
       "column": "6",
-      "line": "13",
+      "line": "14",
       "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Ultrasonic-Sensor\\ultrasonic-sensor.h"
     },
     "name": "Delay",
@@ -95421,7 +95421,7 @@
     "display": "void Delay(unsigned long)",
     "location": {
       "column": "6",
-      "line": "13",
+      "line": "14",
       "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Ultrasonic-Sensor\\ultrasonic-sensor.h"
     },
     "name": "Delay",
@@ -95495,174 +95495,6 @@
       "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Timer\\Timer0A.h"
     },
     "name": "Delay_MicroSecond",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@96@macro@_STDBOOL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_STDBOOL",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "_STDBOOL",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@200@macro@bool",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "bool",
-    "location": {
-      "column": "11",
-      "line": "13",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "bool",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@225@macro@true",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "true",
-    "location": {
-      "column": "11",
-      "line": "14",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "true",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@246@macro@false",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "false",
-    "location": {
-      "column": "11",
-      "line": "15",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "false",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@275@macro@__bool_true_false_are_defined",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__bool_true_false_are_defined",
-    "location": {
-      "column": "9",
-      "line": "18",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "__bool_true_false_are_defined",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:adc.h@24@macro@ADC_H_",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ADC_H_",
-    "location": {
-      "column": "9",
-      "line": "2",
-      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\ADC\\adc.h"
-    },
-    "name": "ADC_H_",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@adc0_ss3_init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void adc0_ss3_init(void)",
-    "location": {
-      "column": "6",
-      "line": "6",
-      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\ADC\\adc.h"
-    },
-    "name": "adc0_ss3_init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@adc0_ss3_init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void adc0_ss3_init(void)",
-    "location": {
-      "column": "6",
-      "line": "6",
-      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\ADC\\adc.h"
-    },
-    "name": "adc0_ss3_init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@adc0_ss3_convert",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void adc0_ss3_convert(void)",
-    "location": {
-      "column": "6",
-      "line": "7",
-      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\ADC\\adc.h"
-    },
-    "name": "adc0_ss3_convert",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@adc0_ss3_convert",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void adc0_ss3_convert(void)",
-    "location": {
-      "column": "6",
-      "line": "7",
-      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\ADC\\adc.h"
-    },
-    "name": "adc0_ss3_convert",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@adc0_ss3_clear_conversion",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void adc0_ss3_clear_conversion(void)",
-    "location": {
-      "column": "6",
-      "line": "8",
-      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\ADC\\adc.h"
-    },
-    "name": "adc0_ss3_clear_conversion",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@adc0_ss3_clear_conversion",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void adc0_ss3_clear_conversion(void)",
-    "location": {
-      "column": "6",
-      "line": "8",
-      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\ADC\\adc.h"
-    },
-    "name": "adc0_ss3_clear_conversion",
     "origin": "user_include",
     "scope": null
   },
@@ -95821,6 +95653,104 @@
     "scope": null
   },
   {
+    "ID": "c:adc.h@24@macro@ADC_H_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC_H_",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\ADC\\adc.h"
+    },
+    "name": "ADC_H_",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@adc0_ss3_init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void adc0_ss3_init(void)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\ADC\\adc.h"
+    },
+    "name": "adc0_ss3_init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@adc0_ss3_init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void adc0_ss3_init(void)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\ADC\\adc.h"
+    },
+    "name": "adc0_ss3_init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@adc0_ss3_convert",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void adc0_ss3_convert(void)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\ADC\\adc.h"
+    },
+    "name": "adc0_ss3_convert",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@adc0_ss3_convert",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void adc0_ss3_convert(void)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\ADC\\adc.h"
+    },
+    "name": "adc0_ss3_convert",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@adc0_ss3_clear_conversion",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void adc0_ss3_clear_conversion(void)",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\ADC\\adc.h"
+    },
+    "name": "adc0_ss3_clear_conversion",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@adc0_ss3_clear_conversion",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void adc0_ss3_clear_conversion(void)",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\ADC\\adc.h"
+    },
+    "name": "adc0_ss3_clear_conversion",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:ycheck.h@1402@macro@__AEABI_PORTABILITY_INTERNAL_LEVEL",
     "What": "MacroDef",
     "defdec": "Def",
@@ -95831,6 +95761,76 @@
       "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\arm\\inc\\c\\ycheck.h"
     },
     "name": "__AEABI_PORTABILITY_INTERNAL_LEVEL",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@96@macro@_STDBOOL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_STDBOOL",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "_STDBOOL",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@200@macro@bool",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "bool",
+    "location": {
+      "column": "11",
+      "line": "13",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "bool",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@225@macro@true",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "true",
+    "location": {
+      "column": "11",
+      "line": "14",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "true",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@246@macro@false",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "false",
+    "location": {
+      "column": "11",
+      "line": "15",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "false",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@275@macro@__bool_true_false_are_defined",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__bool_true_false_are_defined",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "__bool_true_false_are_defined",
     "origin": "system_include",
     "scope": null
   },
@@ -96045,73 +96045,31 @@
     "scope": null
   },
   {
-    "ID": "c:magnetic-sensor.h@36@macro@MAGNETIC_SENSOR_H_",
-    "What": "MacroDef",
+    "ID": "c:@F@magnetic_init",
+    "What": "Function",
     "defdec": "Def",
-    "display": "MAGNETIC_SENSOR_H_",
-    "location": {
-      "column": "9",
-      "line": "2",
-      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Magnetic-Sensor\\magnetic-sensor.h"
-    },
-    "name": "MAGNETIC_SENSOR_H_",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@magnetic_init",
-    "What": "Function",
-    "defdec": "Dec",
     "display": "void magnetic_init(void)",
     "location": {
       "column": "6",
-      "line": "9",
-      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Magnetic-Sensor\\magnetic-sensor.h"
+      "line": "3",
+      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Magnetic-Sensor\\magnetic-sensor.c"
     },
     "name": "magnetic_init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@magnetic_init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void magnetic_init(void)",
-    "location": {
-      "column": "6",
-      "line": "9",
-      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Magnetic-Sensor\\magnetic-sensor.h"
-    },
-    "name": "magnetic_init",
-    "origin": "user_include",
+    "origin": "project_file",
     "scope": null
   },
   {
     "ID": "c:@F@magnetic_get_read",
     "What": "Function",
-    "defdec": "Dec",
+    "defdec": "Def",
     "display": "void magnetic_get_read(void)",
     "location": {
       "column": "6",
-      "line": "10",
-      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Magnetic-Sensor\\magnetic-sensor.h"
+      "line": "22",
+      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Magnetic-Sensor\\magnetic-sensor.c"
     },
     "name": "magnetic_get_read",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@magnetic_get_read",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void magnetic_get_read(void)",
-    "location": {
-      "column": "6",
-      "line": "10",
-      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Magnetic-Sensor\\magnetic-sensor.h"
-    },
-    "name": "magnetic_get_read",
-    "origin": "user_include",
+    "origin": "project_file",
     "scope": null
   },
   {
@@ -96191,7 +96149,7 @@
     "display": "unsigned long Measure_distance(void)",
     "location": {
       "column": "15",
-      "line": "41",
+      "line": "46",
       "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Ultrasonic-Sensor\\ultrasonic-sensor.c"
     },
     "name": "Measure_distance",
@@ -96199,13 +96157,13 @@
     "scope": null
   },
   {
-    "ID": "c:ultrasonic-sensor.c@1897@F@Measure_distance@lastEdge",
+    "ID": "c:ultrasonic-sensor.c@1966@F@Measure_distance@lastEdge",
     "What": "Variable",
     "defdec": "Def",
     "display": "lastEdge",
     "location": {
       "column": "7",
-      "line": "43",
+      "line": "48",
       "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Ultrasonic-Sensor\\ultrasonic-sensor.c"
     },
     "name": "lastEdge",
@@ -96213,13 +96171,13 @@
     "scope": null
   },
   {
-    "ID": "c:ultrasonic-sensor.c@1897@F@Measure_distance@thisEdge",
+    "ID": "c:ultrasonic-sensor.c@1966@F@Measure_distance@thisEdge",
     "What": "Variable",
     "defdec": "Dec",
     "display": "thisEdge",
     "location": {
       "column": "17",
-      "line": "43",
+      "line": "48",
       "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Ultrasonic-Sensor\\ultrasonic-sensor.c"
     },
     "name": "thisEdge",
@@ -96233,7 +96191,7 @@
     "display": "void Delay(unsigned long)",
     "location": {
       "column": "6",
-      "line": "75",
+      "line": "80",
       "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Ultrasonic-Sensor\\ultrasonic-sensor.c"
     },
     "name": "Delay",
@@ -96241,13 +96199,13 @@
     "scope": null
   },
   {
-    "ID": "c:ultrasonic-sensor.c@3456@F@Delay@i",
+    "ID": "c:ultrasonic-sensor.c@3525@F@Delay@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "17",
-      "line": "77",
+      "line": "82",
       "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Ultrasonic-Sensor\\ultrasonic-sensor.c"
     },
     "name": "i",
@@ -96255,31 +96213,73 @@
     "scope": null
   },
   {
+    "ID": "c:magnetic-sensor.h@36@macro@MAGNETIC_SENSOR_H_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MAGNETIC_SENSOR_H_",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Magnetic-Sensor\\magnetic-sensor.h"
+    },
+    "name": "MAGNETIC_SENSOR_H_",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@magnetic_init",
     "What": "Function",
-    "defdec": "Def",
+    "defdec": "Dec",
     "display": "void magnetic_init(void)",
     "location": {
       "column": "6",
-      "line": "3",
-      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Magnetic-Sensor\\magnetic-sensor.c"
+      "line": "9",
+      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Magnetic-Sensor\\magnetic-sensor.h"
     },
     "name": "magnetic_init",
-    "origin": "project_file",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@magnetic_init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void magnetic_init(void)",
+    "location": {
+      "column": "6",
+      "line": "9",
+      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Magnetic-Sensor\\magnetic-sensor.h"
+    },
+    "name": "magnetic_init",
+    "origin": "user_include",
     "scope": null
   },
   {
     "ID": "c:@F@magnetic_get_read",
     "What": "Function",
-    "defdec": "Def",
+    "defdec": "Dec",
     "display": "void magnetic_get_read(void)",
     "location": {
       "column": "6",
-      "line": "22",
-      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Magnetic-Sensor\\magnetic-sensor.c"
+      "line": "10",
+      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Magnetic-Sensor\\magnetic-sensor.h"
     },
     "name": "magnetic_get_read",
-    "origin": "project_file",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@magnetic_get_read",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void magnetic_get_read(void)",
+    "location": {
+      "column": "6",
+      "line": "10",
+      "path": "C:\\Users\\Legion\\Desktop\\Li-Fi\\Sensors\\Magnetic-Sensor\\magnetic-sensor.h"
+    },
+    "name": "magnetic_get_read",
+    "origin": "user_include",
     "scope": null
   },
   {

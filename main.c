@@ -8,9 +8,11 @@
 int main(void)
 {
   magnetic_init();
+  ultrasonic_sensor_init();
   laser_init();
   while(1)
   {
       magnetic_get_read();
+      ultrasonic_sensor_start();
   }
 }

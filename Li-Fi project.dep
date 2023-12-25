@@ -5,44 +5,68 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
             <file>$PROJ_DIR$\Debug\Obj\Sensors\Magnetic-Sensor\magnetic-sensor.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\ADC\adc.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
-            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
-            <file>$PROJ_DIR$\Debug\Obj\Sensors\Fume-Sensor\fume_sensor.o</file>
-            <file>$PROJ_DIR$\Sensors\Ultrasonic-Sensor\ultrasonic-sensor.c</file>
-            <file>$PROJ_DIR$\Timer\Timer0A.c</file>
-            <file>$PROJ_DIR$\bitwise_operation.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
             <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$PROJ_DIR$\Timer\Timer0A.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
             <file>$PROJ_DIR$\Debug\List\Li-Fi project.map</file>
             <file>$PROJ_DIR$\Debug\Obj\Timer\Timer0A.o</file>
-            <file>$PROJ_DIR$\Sensors\Ultrasonic-Sensor\ultrasonic-sensor.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\ADC\adc.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Sensors\Fume-Sensor\fume_sensor.o</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Timer\Timer0A.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\Sensors\Ultrasonic-Sensor\ultrasonic-sensor.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\Timer\Timer0A.c</file>
+            <file>$PROJ_DIR$\Sensors\Ultrasonic-Sensor\ultrasonic-sensor.c</file>
+            <file>$PROJ_DIR$\Debug\Exe\Li-Fi project.out</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Sensors\Ultrasonic-Sensor\ultrasonic-sensor.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
             <file>$PROJ_DIR$\tm4c123gh6pm.h</file>
             <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\Debug\Exe\Li-Fi project.out</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\Sensors\Ultrasonic-Sensor\ultrasonic-sensor.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\bitwise_operation.h</file>
+            <file>$PROJ_DIR$\Sensors\Magnetic-Sensor\magnetic-sensor.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Li-Fi\Laser.o</file>
+            <file>$PROJ_DIR$\ADC\adc.c</file>
             <file>$PROJ_DIR$\ADC\adc.h</file>
+            <file>$PROJ_DIR$\Li-Fi\Laser.c</file>
+            <file>$PROJ_DIR$\Li-Fi\Laser.h</file>
+            <file>$PROJ_DIR$\Sensors\Fume-Sensor\fume_sensor.c</file>
             <file>$PROJ_DIR$\Sensors\Fume-Sensor\fume_sensor.h</file>
             <file>$PROJ_DIR$\Sensors\Magnetic-Sensor\magnetic-sensor.c</file>
-            <file>$PROJ_DIR$\Sensors\Magnetic-Sensor\magnetic-sensor.h</file>
-            <file>$PROJ_DIR$\ADC\adc.c</file>
-            <file>$PROJ_DIR$\Sensors\Fume-Sensor\fume_sensor.c</file>
-            <file>$PROJ_DIR$\Li-Fi\Laser.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\Li-Fi\Laser.o</file>
-            <file>$PROJ_DIR$\Li-Fi\Laser.c</file>
         </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 20 5</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Timer\Timer0A.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14 24</file>
+                </tool>
+            </inputs>
+        </file>
         <file>
             <name>$PROJ_DIR$\Sensors\Ultrasonic-Sensor\ultrasonic-sensor.c</name>
             <outputs>
@@ -54,37 +78,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 15 18 12 0 24 23 25 4 26 2</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Timer\Timer0A.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 14</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 12 18</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\main.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 16</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 18 28 27 15 12 0 24 23 25 4 26 2 30 10 33 34</file>
+                    <file> 16 24 14 33 27 17 1 11 12 13 8 21 23</file>
                 </tool>
             </inputs>
         </file>
@@ -93,57 +87,33 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 13</file>
+                    <file> 5</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 6 3 7 35 1 16 14 22 11 21 5 17</file>
+                    <file> 3 7 9 29 0 10 6 22 2 15 4 26</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 20 13</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Sensors\Magnetic-Sensor\magnetic-sensor.c</name>
+            <name>$PROJ_DIR$\main.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 1</file>
+                    <file> 10</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 30 18 10 15 12 0 24 23 25 4 26 2</file>
+                    <file> 24 35 31 16 14 33 27 17 1 11 12 13 8 21 23 28</file>
                 </tool>
             </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\ADC\adc.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 3</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 27 18</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Sensors\Fume-Sensor\fume_sensor.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
@@ -153,7 +123,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 28 18 27</file>
+                    <file> 31 24</file>
                 </tool>
             </inputs>
         </file>
@@ -162,13 +132,43 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 35</file>
+                    <file> 29</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 33 18 10 12 15 0 24 23 25 4 26 2 34</file>
+                    <file> 33 24 27 14 16 1 11 12 13 8 21 23 17</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Sensors\Fume-Sensor\fume_sensor.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35 24 31</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Sensors\Magnetic-Sensor\magnetic-sensor.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 0</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 28 24 27 16 14 33 17 1 11 12 13 8 21 23</file>
                 </tool>
             </inputs>
         </file>

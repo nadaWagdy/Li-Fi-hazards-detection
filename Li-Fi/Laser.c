@@ -13,24 +13,31 @@ void laser_init()
 
 void laser_transmit_data(bool a, bool b, bool c)
 {
+  // start 
+  
+  Set_Bit(GPIO_PORTB_DATA_R, 3);
+  Delay_MicroSecond(100000);
+  
+  ///////
+  
   Clear_Bit(GPIO_PORTB_DATA_R, 3);
   if (a == true)
     Set_Bit(GPIO_PORTB_DATA_R, 3);
   
-  Delay_MicroSecond(1000000);
+  Delay_MicroSecond(100000);
   
   Clear_Bit(GPIO_PORTB_DATA_R, 3);
   if (b == true)
     Set_Bit(GPIO_PORTB_DATA_R, 3);
   
-  Delay_MicroSecond(1000000);
+  Delay_MicroSecond(100000);
   
   Clear_Bit(GPIO_PORTB_DATA_R, 3);
   if (c == true)
     Set_Bit(GPIO_PORTB_DATA_R, 3);
   
-  Delay_MicroSecond(1000000);
+  Delay_MicroSecond(100000);
   
   Clear_Bit(GPIO_PORTB_DATA_R, 3);
-  Delay_MicroSecond(3000000);
-}
+  Delay_MicroSecond(100000);
+} 
